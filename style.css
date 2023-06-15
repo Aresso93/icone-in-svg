@@ -1,0 +1,15 @@
+body {
+    background-color: aliceblue;
+}
+
+svg {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 2;
+    border: 1px solid black;
+}
+
+svg {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  

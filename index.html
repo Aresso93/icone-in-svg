@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prove di icone varie</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+          <svg viewBox="0 0 24 24" width="64" height="64">
+            <line x1="2" y1="4.2" x2="20" y2="4.2"/>
+            <line x1="2" y1="9.4" x2="16" y2="9.4"/>
+            <line x1="2" y1="14.6" x2="22" y2="14.6"/>
+            <line x1="2" y1="19.8" x2="16" y2="19.8"/>
+          </svg>
+          <svg viewBox="0 0 24 24" width="64" height="64">
+            <polyline points="3 8, 3 4" />
+            
+            <polyline fill="none" points="3 8, 3 4, 21 4" />
+                <polyline fill="none" points="3 8, 3 4, 21 4, 21 8" />
+                <polyline fill="none" points="3 8, 3 4, 21 4, 21 8" />
+                <line x1="12" y1="4" x2="12" y2="20" />
+                <line x1="8" y1="20" x2="16" y2="20" />  
+        </svg>
+        
+        <svg viewBox="0 0 24 24" width="64" height="64">
+            <circle fill="none" cx="12" cy="12" r="10" />
+            <polyline fill="none" points="13 7, 13 14, 9 14" />
+          </svg>
+          
+          <svg viewBox="0 0 24 24" width="64" height="64">
+            <circle fill="none" cx="12" cy="12" r="10" />
+            <circle cx="12" cy="8" r="0.5"/>
+            <line x1="12" y1="12" x2="12" y2="16" />
+          </svg>
+          
+          <svg viewBox="0 0 24 24" width="64" height="64" class="bordered">
+            <circle fill="none" cx="12" cy="12" r="10" />
+            <!--prima la linea che è quella orizzontale, e poi polyline per quella spezzata-->
+            <line x1="8" y1="12" x2="16" y2="12" />
+          </svg>
+
+          <svg viewBox="0 0 24 24" width="64" height="64">
+            <polyline fill="none" points="12 2, 22 22, 2 22, 12 2" />
+          </svg>
+          <!--qui ho usato polyline in maniera cringe anche se bisognerebbe usare
+        polygon per osservare che si può fare anche in quel modo. In quel caso si ripete per ultima la prima coppia di numero per chiudere la figura-->
+        <svg viewBox="0 0 24 24" width="64" height="64">
+            <polygon fill="none" points="12 2, 22 22, 2 22" />
+                <line x1="12" y1="10" x2="12" y2="14" />
+                <circle cx="12" cy="18" r="0.5" fill="currentColor" />
+          </svg>
+          
+          <svg viewBox="0 0 24 24" width="64" height="64">
+            <rect fill="none" x="4" y="4" width="18" height="18" />
+          </svg>
+        <!--il rettangolo si è fatto con rect, anche se si può fare con polygon (e con polyline, ovviamente)-->  
+
+        <svg viewBox="0 0 24 24" width="64" height="64">
+  <rect fill="none" x="3" y="5" width="18" height="16" />
+  
+  <line x1="7" y1="3" x2="7" y2="7" />
+  <line x1="17" y1="3" x2="17" y2="7" />
+  <line x1="4" y1="10" x2="20" y2="10" />
+
+  <!--tutto quello fatto ora si può fare anche con il tag path e il suo attributo d (che sta per definition)-->
+
+</svg>
+</body>
+</html>
